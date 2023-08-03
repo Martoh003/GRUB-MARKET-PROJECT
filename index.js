@@ -96,6 +96,30 @@ function initImageSlider() {
       image.style.transform = `translateX(${(index - currentIndex) * 100}%)`;
     });
   }
+  // Function to handle form submission
+  function handleSubmit(event) {
+    event.preventDefault();
+    const form = event.target;
+    const name = form.elements.name.value;
+    const email = form.elements.email.value;
+    const message = form.elements.message.value;
+
+    // Basic validation to check if all fields are filled out
+    if (!name || !email || !message) {
+      alert('Please fill out all fields.');
+      return;
+    }
+
+    // Assuming you have a function to handle sending the message to the server
+    // For demonstration purposes, we'll simply show an alert here
+    alert('Message has been sent!');
+    // You can also redirect to the home page here
+    window.location.href = '/index.html';
+  }
+
+  // Add event listener to the form submit event
+  const contactForm = document.getElementById('contactForm');
+  contactForm.addEventListener('submit', handleSubmit);
 
   // Start the image slider
   setInterval(showNextImage, 3000); // Change image every 3 seconds (adjust as needed)

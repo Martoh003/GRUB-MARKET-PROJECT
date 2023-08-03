@@ -84,3 +84,148 @@ footer {
 .image-slider img:not(:first-child) {
   transform: translateX(100%);
 }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Styling for the contact section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#contact h2 {
+  margin-bottom: 10px;
+}
+
+#contact p {
+  margin-bottom: 20px;
+}
+
+#contactForm label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contactForm textarea {
+  resize: vertical;
+}
+
+#contactForm input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#contactForm input[type="submit"]:hover {
+  background-color: #444;
+}
+/* style.css */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* style.css */
+/* ... Your existing CSS code ... */
+
+/* Change link color for navigation links */
+nav a {
+  color: #e41a1a; /* Change this color to your desired link color */
+  text-decoration: none;
+}
+
+/* Add an underline to the link on hover */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Change link color for contact, events, and admin profile */
+#contact a,
+#events a,
+#adminProfile a {
+  color: #0c72df; /* Change this color to your desired link color */
+  text-decoration: none;
+}
+
+/* Add an underline to the link on hover */
+#contact a:hover,
+#events a:hover,
+#adminProfile a:hover {
+  text-decoration: underline;
+}
