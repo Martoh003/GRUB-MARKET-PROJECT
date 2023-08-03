@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+/* Styling for User and Admin Profile Sections */
+.user-profile,
+.admin-profile {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Styling for Newsletter Section */
+.newsletter {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Styling for Marketplace Section */
+.marketplace {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.marketplace div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.marketplace img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling for Events and Contact Section */
+.events-contact {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Styling for Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+  

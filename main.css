@@ -1,0 +1,66 @@
+/* Your CSS styles go here */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .product-list div {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .product-list img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .shopping-cart {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  #cartItems {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cartItems li {
+    margin-bottom: 0.5rem;
+  }
+  
+  #checkoutButton {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

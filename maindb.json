@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Onion",
+      "description": "Fresh onions sourced from local farms.",
+      "price": 10,
+      "image": "https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Tomatoes",
+      "description": "Juicy red tomatoes, perfect for salads and cooking.",
+      "price": 15,
+      "image": "https://images.unsplash.com/photo-1594057687713-5fd14eed1c17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
+    },
+    {
+      "id": "3",
+      "name": "Kales",
+      "description": "Nutritious kale leaves, packed with vitamins and minerals.",
+      "price": 15,
+      "image": "https://media.istockphoto.com/id/655978928/photo/fresh-harvested-organic-spinach.jpg?s=1024x1024&w=is&k=20&c=LEo2GdBBtbfRZKmK0RBRpm1mRlSOXdfWezPEtK0PDBY="
+    },
+    {
+      "id": "4",
+      "name": "Cabbages",
+      "description": "Fresh cabbages for salads, coleslaw, and stir-fries.",
+      "price": 15,
+      "image": "https://images.unsplash.com/photo-1614540527480-1a0818eafcbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+      "id": "5",
+      "name": "Beetroot",
+      "description": "Fresh and vibrant beetroot, great for salads and smoothies.",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1527790806964-dfa3c2c7e032?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=693&q=80"
+    }
+  ]
+}
+
+  

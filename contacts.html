@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+  
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+  
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+  
+      nav li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+  
+      nav a {
+        color: #333;
+        text-decoration: none;
+      }
+  
+      main {
+        padding: 20px;
+      }
+  
+      /* Styling for the contact section */
+      #contact {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+  
+      #contact h2 {
+        margin-bottom: 10px;
+      }
+  
+      #contact p {
+        margin-bottom: 20px;
+      }
+  
+      #contactForm label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+  
+      #contactForm input[type="text"],
+      #contactForm input[type="email"],
+      #contactForm textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+  
+      #contactForm textarea {
+        resize: vertical;
+      }
+  
+      #contactForm input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+  
+      #contactForm input[type="submit"]:hover {
+        background-color: #444;
+      }
+    </style>
+  
+</head>
+<body>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Have a question or feedback? Reach out to us by filling out the form below:</p>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      
+          <input type="submit" value="Send Message">
+        </form>
+      </section>
+      <a href="index.html">Back to Home page</a>
+</body>
+</html>
