@@ -78,7 +78,31 @@ async function updateEvents() {
     eventsSection.innerHTML = eventsHTML;
   }
 }
+// Function to initialize the image slider
+function initImageSlider() {
+  const imageSlider = document.querySelector('.image-slider');
+  const images = imageSlider.querySelectorAll('img');
+  let currentIndex = 0;
 
+  // Function to show the next image
+  function showNextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateImageSlider();
+  }
+
+  // Function to update the image slider
+  function updateImageSlider() {
+    images.forEach((image, index) => {
+      image.style.transform = `translateX(${(index - currentIndex) * 100}%)`;
+    });
+  }
+
+  // Start the image slider
+  setInterval(showNextImage, 3000); // Change image every 3 seconds (adjust as needed)
+}
+
+// Call the function to initialize the image slider
+initImageSlider();
 
 // Call the functions to update the sections on page load
 document.addEventListener('DOMContentLoaded', () => {
