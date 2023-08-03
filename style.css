@@ -69,4 +69,18 @@ footer {
   padding: 10px;
 }
 
-  
+/* style.css */
+.image-slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+/* Hide all images except the first one */
+.image-slider img:not(:first-child) {
+  transform: translateX(100%);
+}
